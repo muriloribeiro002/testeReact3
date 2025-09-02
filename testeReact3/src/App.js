@@ -11,7 +11,7 @@ export default function TodoList() {
     setNewTask("");
   };
 
-  const toggleTask = (id) => {
+  const togleTask = (id) => {
     setTodos(
       todos.map((todo) =>
         todo.id === id ? { ...todo, done: !todo.done } : todo
